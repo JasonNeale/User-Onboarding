@@ -1,15 +1,20 @@
-import React from 'react';
+// Packages
+import React from 'react'
 
-import Form from './components/Form'
+// Components
+import UserForm from './components/UserForm'
 
-import './App.css';
 
 function App() {
     return (
         <div className="App">
-            <Form />
+            <div className="row page-wrapper">
+                <div className="col form-wrapper">
+                    <UserForm />
+                </div>
+            </div>
         </div>
   )
 }
 
-export default App;
+export default App
